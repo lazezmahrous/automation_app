@@ -9,6 +9,7 @@ android {
     namespace = "com.example.automation_app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
+    compileSdkVersion 34
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -20,6 +21,9 @@ android {
     }
 
     defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.automation_app"
         // You can update the following values to match your application needs.
